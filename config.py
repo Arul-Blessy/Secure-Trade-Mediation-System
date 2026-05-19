@@ -1,4 +1,5 @@
-SERVER = "http://localhost:8000"
+import os
+SERVER = os.getenv("API_BASE_URL", "http://localhost:8000")
 
 VALID_CREDENTIALS = {
     "Blessy_seller": {"password": "12345678", "role": "Seller"},
