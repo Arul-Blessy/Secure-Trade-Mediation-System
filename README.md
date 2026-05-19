@@ -3,6 +3,9 @@
 
 A full-stack prototype designed to eliminate E-commerce fraud (COD and Return scams) using a **Dual-Escrow** mechanism and **Symmetric Penalty-Redistribution**. This project addresses vulnerabilities in modern supply chains by financially binding both parties to a "Handshake" agreement.
 
+## 🚀 Live Link
+- **Live Demo Interface:** [Interact with the Frontend](https://secure-trade-mediation-system-2.onrender.com/)
+
 ## 🧠 System Logic & Penalty Redistribution
 The core of this research is a symmetric accountability model. If the system detects a scam via the Delivery Agent (Mediator), the escrow is redistributed as follows:
 
