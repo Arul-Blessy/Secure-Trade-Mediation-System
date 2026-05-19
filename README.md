@@ -3,6 +3,20 @@
 
 A full-stack prototype designed to eliminate E-commerce fraud (COD and Return scams) using a **Dual-Escrow** mechanism and **Symmetric Penalty-Redistribution**. This project addresses vulnerabilities in modern supply chains by financially binding both parties to a "Handshake" agreement.
 
+## 🚀 Live Link
+- **Live Demo Interface:** [Interact with the Frontend](https://secure-trade-mediation-system-2.onrender.com/)
+
+## 🔑 Demo Login Credentials
+To test the end-to-end user roles and the symmetric accountability flows on the live link, you can log in using these preset credentials:
+
+| Role | Username | Password | Purpose in Walkthrough |
+| :--- | :--- | :--- | :--- |
+| **Buyer** | `Blessy_buyer` | `12345678` | Browse items, add funds, place prepaid/COD orders, or request a return. |
+| **Seller** | `Blessy_seller` | `12345678` | View received orders, accept deals, or trigger stock-out simulations. |
+| **Delivery Agent** | `Blessy_agent` | `12345678` | Act as the mediator to confirm delivery or flag unreasonable return fraud. |
+
+> **💡 Quick Testing Tip:** Open the live link in two separate browser windows ,so you can log in as a Buyer in one and the Seller/Agent in the other to watch the escrow balances update instantly!
+
 ## 🧠 System Logic & Penalty Redistribution
 The core of this research is a symmetric accountability model. If the system detects a scam via the Delivery Agent (Mediator), the escrow is redistributed as follows:
 
